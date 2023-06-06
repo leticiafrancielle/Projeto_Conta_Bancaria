@@ -11,14 +11,6 @@ public class Menu {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 
-		// Teste da Conta
-		
-		Conta conta1 = new Conta(1, 653, 1, "Adriana", 10000.0f);
-		conta1.visualizar();
-		conta1.sacar(12000.0f);
-		conta1.visualizar();
-		conta1.depositar(5000.0f);
-		conta1.visualizar();
 
 		// Teste da Classe Conta Corrente
 		
